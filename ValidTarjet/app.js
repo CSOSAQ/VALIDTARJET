@@ -30,7 +30,11 @@ function isValidCrad(numbertarjet){
        
 
         var validar=(sumimp + sum)/10
-        alert("El número de tarjeta es valido")
+        if(validar==0){
+        alert("El número de tarjeta es valido")}
+        else{
+            alert("El número de tarjeta es invalido")
+        }
 }
 
 isValidCrad(numbertarjet);
